@@ -1,0 +1,86 @@
+/* Cabeçalho =================== */
+header {
+    margin-top: 20px;
+    user-select: none;
+}
+
+header h2 {
+    margin: 0 0 20px 0;
+}
+
+header img {
+    width: 100px;
+}
+
+/* Conateúdo ==============*/
+.container {
+    width: 70%;
+    
+}
+
+.row {
+    display: flex;
+}
+
+.input-field.search {
+    width: 90%;
+
+}
+
+.games .games-list {
+    cursor: grab;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.games .item {
+    margin: 0 50px 0 0;
+    max-width: 130px;
+}
+
+.games .item .card-content {
+    height: 238px
+}
+
+/* Cards ======================= */
+.card {
+    width: 160px;
+    height: 310px;
+    overflow: hidden;
+}
+
+.card-image img {
+    height: 100px;
+}
+
+p {
+    text-align: left;
+    font-size: 1.40rem;
+}
+
+/* Loading */
+.preloader-wrapper {
+    position: absolute; 
+    margin-left: 45%;
+    margin-bottom: 50px;
+    
+}
+
+#games-relationed {
+    margin-bottom: 1rem;
+}
+
+/* Responsive Mobile ===============*/
+@media (max-width: 600px){
+    .row {
+        display: flex;
+    }
+    .input-field.search {
+        width: 70%;
+    }
+    .card  {
+        width: 150px;
+        height: 250px;
+    }
+}

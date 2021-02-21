@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>JavaScript Assíncrono</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header class="center-align">
+        <img src="./img/logo.svg" alt="Hcode Treinamentos">
+        <h2>Hcode Games</h2>
+    </header>
+
+    <div class="container">
+        
+
+        <div class="row">
+            <div class="input-field search">
+                <i class="material-icons prefix">videogame_asset</i>
+                <input id="search-game" type="text">
+               
+                <label for="search-game">Digite um jogo</label>
+            </div>
+            <div class="input-field ">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Pesquisar</button>
+            </div>
+           
+        </div>
+
+        <div class="games">
+            <h4>Jogos</h4>
+            <div class="games-list" id="games-list-principal"></div>
+            <hr>
+
+            <h4>Jogos Relacionados</h4>
+            <div class="games-list" id="games-relationed"> </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/scrollEvents.js"></script>
+    <script src="./js/requests-promises.js"></script>
+
+</body>
+</html>

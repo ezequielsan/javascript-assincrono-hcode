@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+
+/* TIRANDO A BARRA DE ROLAGEM */
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+}
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: #05395b;
+    border-left: 1px solid #CCC;
+}
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #3490cc;
+}
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #717171;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
